@@ -1,7 +1,3 @@
-import funcao
+import platform
 
-nome = input("qual seu nome?\n>>>")
-
-x = funcao.quantasLetras(nome)
-
-print("seu nome tem", x, "letras")
+print(platform.win32_ver())
