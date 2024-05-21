@@ -1,3 +1,7 @@
-import platform
+import sys
 
-print(platform.win32_ver())
+sistema = sys.platform
+if (sistema == "linux"):
+  print("você está usando linux!!!!")
+else:
+  print("não ta usando linux :/")
