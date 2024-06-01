@@ -6,11 +6,11 @@ from PySide6.QtWidgets import QApplication, QPushButton
 
 @Slot()
 def morri():
-  print("o quee😨")
+  print("foi pra casa do caralho")
 
 
 app = QApplication(sys.argv)
-botao = QPushButton("e cadê o amor foi pra casa do caralho")
+botao = QPushButton("e cadê o amor?")
 botao.clicked.connect(morri)
 botao.show()
 app.exec()
